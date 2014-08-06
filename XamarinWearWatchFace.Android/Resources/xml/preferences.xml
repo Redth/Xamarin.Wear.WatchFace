@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <CheckBoxPreference
+  android:title="Show Xamarin Logo"
+  android:defaultValue="true"
+  android:summary="Show the Xamarin Logo in the background"
+  android:key="prefshowxamarin" />
+
+ <CheckBoxPreference
+  android:title="Use 24 Hour Clock"
+  android:defaultValue="false"
+  android:summary="Show Hours in a 24 hour format"
+  android:key="pref24hourclock" />
+
+  <CheckBoxPreference
+  android:title="Show Day of Week"
+  android:defaultValue="true"
+  android:summary="Show Day of Week (eg: Monday)"
+  android:key="prefshowdayofweek" />
+
+  <CheckBoxPreference
+  android:title="Show Date"
+  android:defaultValue="true"
+  android:summary="Show Date (eg: JULY 31)"
+  android:key="prefshowdate" />
+
+</PreferenceScreen>

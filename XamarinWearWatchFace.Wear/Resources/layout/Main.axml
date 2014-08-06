@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <wearxamface.ProgressWheel
+        android:id="@+id/wheelHours"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal|center_vertical" />
+    <wearxamface.ProgressWheel
+        android:id="@+id/wheelMinutes"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal|center_vertical" />
+    <wearxamface.ProgressWheel
+        android:id="@+id/wheelSeconds"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal|center_vertical" />
+    <ImageView
+        android:id="@+id/xamarinLogo"
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        src="@drawable/xamarin"
+        android:layout_gravity="center"
+        android:src="@drawable/xamarin"
+        android:scaleType="fitCenter"
+        android:alpha="0.15"
+        android:adjustViewBounds="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical">
+        <TextView
+            android:text="THURSDAY"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDay"
+            android:gravity="center"
+            android:fontFamily="sans-serif" />
+        <TextView
+            android:text="5:20 PM"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTime"
+            android:gravity="center"
+            android:fontFamily="sans-serif"
+            android:textSize="36sp" />
+        <TextView
+            android:text="JULY 30"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDate"
+            android:gravity="center"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+</FrameLayout>

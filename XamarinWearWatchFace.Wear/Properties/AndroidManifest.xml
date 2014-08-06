@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100" android:versionName="1.0.0" package="com.xamarin.android.wear.watchface">
+	<uses-sdk />
+	<application android:label="Xamarin">
+		<activity android:label="Xamarin" android:allowEmbedded="true" android:taskAffinity="" android:theme="@android:style/Theme.DeviceDefault.NoActionBar" android:name="wearxamface.MainActivity">
+			<meta-data android:name="com.google.android.clockwork.home.preview" android:resource="@drawable/preview" />
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="com.google.android.clockwork.home.category.HOME_BACKGROUND" />
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>

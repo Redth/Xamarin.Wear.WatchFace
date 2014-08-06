@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100" package="com.xamarin.android.wear.watchface" android:versionName="1.0.0">
+	<uses-sdk />
+	<application android:label="Xamarin Watch Face" android:theme="@style/AppTheme" android:icon="@drawable/appiconaction">
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>

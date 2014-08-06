@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinWearFace.Common", "XamarinWearWatchFace.Common\XamarinWearFace.Common.csproj", "{FE716544-EB73-4D53-9CD1-1900C18A11DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinWatchFace.Wear", "XamarinWearWatchFace.Wear\XamarinWatchFace.Wear.csproj", "{76B6DF9F-CFC6-4BE4-A25A-3EDCE97B91EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinWatchFace.Android", "XamarinWearWatchFace.Android\XamarinWatchFace.Android.csproj", "{F1FD3116-6975-4376-819A-E303E84D5F92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B6DF9F-CFC6-4BE4-A25A-3EDCE97B91EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B6DF9F-CFC6-4BE4-A25A-3EDCE97B91EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B6DF9F-CFC6-4BE4-A25A-3EDCE97B91EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B6DF9F-CFC6-4BE4-A25A-3EDCE97B91EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FD3116-6975-4376-819A-E303E84D5F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FD3116-6975-4376-819A-E303E84D5F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FD3116-6975-4376-819A-E303E84D5F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FD3116-6975-4376-819A-E303E84D5F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE716544-EB73-4D53-9CD1-1900C18A11DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE716544-EB73-4D53-9CD1-1900C18A11DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE716544-EB73-4D53-9CD1-1900C18A11DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE716544-EB73-4D53-9CD1-1900C18A11DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = XamarinWearWatchFace.Android\XamarinWatchFace.Android.csproj
+	EndGlobalSection
+EndGlobal
